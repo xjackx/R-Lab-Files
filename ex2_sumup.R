@@ -1,0 +1,11 @@
+sumup<-function(s,m)
+{
+  result<-s
+  while(result+s<m)
+    {
+      s<-s+1
+      result<-result+s
+  }
+  result
+}
+sumup(2,10)
